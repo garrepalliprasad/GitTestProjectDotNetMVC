@@ -15,14 +15,14 @@ namespace GitTestProjectDotNetMVC.Controllers
 
         public ActionResult About()
         {
-            ViewBag.Message = "This is an application at Git";
+            ViewBag.Message = "This is an application at Git With Branch3";
 
             return View();
         }
 
         public ActionResult Contact()
         {
-            ViewBag.Message = "Your contact page.";
+            ViewBag.Message = "Your contact page. For Branch3";
 
             return View();
         }
