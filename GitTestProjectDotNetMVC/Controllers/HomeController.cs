@@ -15,7 +15,7 @@ namespace GitTestProjectDotNetMVC.Controllers
 
         public ActionResult About()
         {
-            ViewBag.Message = "This is an application at Git";
+            ViewBag.Message = "This is an application at Git For which a new Branch Called Branch1 is Added Now";
 
             return View();
         }
