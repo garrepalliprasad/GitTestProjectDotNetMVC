@@ -22,7 +22,7 @@ namespace GitTestProjectDotNetMVC.Controllers
 
         public ActionResult Contact()
         {
-            ViewBag.Message = "Your contact page.";
+            ViewBag.Message = "This is a Contact Page Only For Branch2.";
 
             return View();
         }
